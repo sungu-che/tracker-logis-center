@@ -1,0 +1,20 @@
+{
+  "compatibility_date": "2025-11-01",
+  "main": "src/index.ts",
+  "name": "tracker-logis-center",
+  "upload_source_maps": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "5284adfb-e35b-4fd4-b059-f24b5c23579f",
+      "database_name": "apac1_logis_console"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "./public/",
+    "binding": "ASSETS"
+  }
+}
